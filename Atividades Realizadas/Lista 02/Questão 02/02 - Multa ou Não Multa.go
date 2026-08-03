@@ -27,14 +27,4 @@ func main() {
 		fmt.Printf("Motorista: %s\n", nome_do_motorista)
 		fmt.Println("Sem Multa")
 	}
-	/*
-		a) 50 reais se o motorista estiver ultrapassar em até 10km/h a velocidade permitida
-		(ex.: velocidade máxima: 50km/h; motorista a 60km/h ou a 56km/h);
-
-		b) 100 reais, se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida.
-
-		c) 200 reais, se estiver acima de 31km/h da velocidade permitida.
-
-		d) A mensagem "Sem multa", se o motorista estiver dentro do limite de velocidade.
-	*/
 }
