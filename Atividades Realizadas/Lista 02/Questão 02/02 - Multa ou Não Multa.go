@@ -7,11 +7,11 @@ func main() {
 	var velocidade_max_permitida, velocidade_do_motorista int
 	var nome_do_motorista string
 
-	fmt.Printf("Insira o nome do(a) motorista: \n")
+	fmt.Printf("Insira o nome do(a) motorista: ")
 	fmt.Scanln(&nome_do_motorista)
-	fmt.Printf("Insira a velocidade máxima permitida: \n")
+	fmt.Printf("Insira a velocidade máxima permitida: ")
 	fmt.Scanln(&velocidade_max_permitida)
-	fmt.Printf("Insira a velocidade do(a) motorista: \n")
+	fmt.Printf("Insira a velocidade do(a) motorista: ")
 	fmt.Scanln(&velocidade_do_motorista)
 
 	if (velocidade_do_motorista >= (velocidade_max_permitida + 1)) && (velocidade_do_motorista <= (velocidade_max_permitida + 10)) {
